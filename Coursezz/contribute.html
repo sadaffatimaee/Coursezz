@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/bootstrap-tour.min.css">
+        <style>
+            body{
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="nav-header">
+                    <button type="button" class="navbar-toggle" data-target="#primary-menu" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">COURSEZZ</a>
+                </div>
+                <div class="collapse navbar-collapse" id="primary-menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="library.html">Library</a></li>
+                        <li><a href="contribute.html">Contribute</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Not yet registered ?</h2><hr>
+                    <h3>Signup</h3><hr>
+                    <form class="form-horizontal" action="register.php" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" name="user_name" placeholder="Enter your name....">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" name="user_email" placeholder="Enter your email....">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" name="user_psw" placeholder="Enter your password....">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-6">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="reset" class="btn btn-default">Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h2>Already have an account</h2><hr>
+                    <h3>Login</h3><hr>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="username" class="col-sm-2 control-label">Username</label>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Username or Email....">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="passwrod" class="col-sm-2 control-label">Password</label>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Password....">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-6">
+                                <button type="submit" class="btn btn-primary">Let me in</button>
+                                <button type="reset" class="btn btn-default">Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <br><br><br>
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-tour.min.js"></script>
+        <script src="js/tour.js"></script>
+    </body>
+</html>
