@@ -11,18 +11,18 @@ problem,model,epoch,training_loss,accuracy,pixel_iou
 3,U-Net without skips,4,0.1082,0.9472,0.4820
 3,U-Net without skips,5,0.0828,0.9616,0.5269
 3,U-Net without skips,6,0.0760,0.9639,0.5315
-4,Mean pooling,1,0.6976,,
-4,Mean pooling,2,0.6951,,
-4,Mean pooling,3,0.6939,,
-4,Mean pooling,4,0.6939,,
-4,Mean pooling,5,0.6938,,
-4,CNN + LSTM,1,0.6930,,
-4,CNN + LSTM,2,0.6892,,
-4,CNN + LSTM,3,0.4483,,
-4,CNN + LSTM,4,0.0052,,
-4,CNN + LSTM,5,0.0008,,
-4,3D CNN,1,0.6815,,
-4,3D CNN,2,0.5589,,
-4,3D CNN,3,0.2141,,
-4,3D CNN,4,0.0325,,
-4,3D CNN,5,0.0095,,
+4,Mean pooling,1,0.6941,0.4990,NA
+4,Mean pooling,2,0.6941,0.4875,NA
+4,Mean pooling,3,0.6932,0.5080,NA
+4,Mean pooling,4,0.6930,0.5080,NA
+4,Mean pooling,5,0.6933,0.5080,NA
+4,CNN + LSTM,1,0.6935,0.4880,NA
+4,CNN + LSTM,2,0.6868,0.5455,NA
+4,CNN + LSTM,3,0.4630,0.8340,NA
+4,CNN + LSTM,4,0.0452,0.9890,NA
+4,CNN + LSTM,5,0.0042,1.0000,NA
+4,3D CNN,1,0.6717,0.7090,NA
+4,3D CNN,2,0.5039,0.9060,NA
+4,3D CNN,3,0.1495,1.0000,NA
+4,3D CNN,4,0.0221,1.0000,NA
+4,3D CNN,5,0.0078,1.0000,NA
