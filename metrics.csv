@@ -1,0 +1,28 @@
+problem,model,epoch,training_loss,accuracy,pixel_iou
+3,U-Net with skips,1,0.9562,0.4110,0.1468
+3,U-Net with skips,2,0.3133,0.9241,0.3080
+3,U-Net with skips,3,0.1564,0.9397,0.4101
+3,U-Net with skips,4,0.0815,0.9605,0.5410
+3,U-Net with skips,5,0.0687,0.9660,0.5312
+3,U-Net with skips,6,0.0654,0.9675,0.5501
+3,U-Net without skips,1,0.7410,0.6147,0.2157
+3,U-Net without skips,2,0.3380,0.9242,0.3081
+3,U-Net without skips,3,0.2279,0.9242,0.3081
+3,U-Net without skips,4,0.1082,0.9472,0.4820
+3,U-Net without skips,5,0.0828,0.9616,0.5269
+3,U-Net without skips,6,0.0760,0.9639,0.5315
+4,Mean pooling,1,0.6976,,
+4,Mean pooling,2,0.6951,,
+4,Mean pooling,3,0.6939,,
+4,Mean pooling,4,0.6939,,
+4,Mean pooling,5,0.6938,,
+4,CNN + LSTM,1,0.6930,,
+4,CNN + LSTM,2,0.6892,,
+4,CNN + LSTM,3,0.4483,,
+4,CNN + LSTM,4,0.0052,,
+4,CNN + LSTM,5,0.0008,,
+4,3D CNN,1,0.6815,,
+4,3D CNN,2,0.5589,,
+4,3D CNN,3,0.2141,,
+4,3D CNN,4,0.0325,,
+4,3D CNN,5,0.0095,,
