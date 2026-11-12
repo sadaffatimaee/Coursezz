@@ -1,0 +1,6 @@
+problem,model,parameters,input_resolution,input_shape,epochs,background_iou,circle_iou,square_iou,mean_iou,mean_dice,ordered_accuracy,shuffled_accuracy,training_time_seconds,batch1_latency_ms
+3,U-Net with skips,105219,64x64,,6,0.994,0.609,0.001,0.534,0.585,,,79.607,9.886
+3,U-Net without skips,93699,64x64,,6,0.990,0.592,0.026,0.536,0.596,,,62.909,15.732
+4,Mean pooling,,,Bx8x1x16x16,5,,,,,,0.496,0.496,7.499,1.519
+4,CNN + LSTM,,,Bx8x1x16x16,5,,,,,,1.000,0.506,7.138,1.837
+4,3D CNN,,,Bx8x1x16x16,5,,,,,,1.000,0.494,8.630,2.124
